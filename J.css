@@ -150,7 +150,7 @@ li:hover li a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 60vw;
-    max-height: 530px;
+    max-height: auto;
 
 }
 
