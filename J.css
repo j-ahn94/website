@@ -46,7 +46,6 @@ nav {
 .logo_colour {
     background-color: black !important;
     color: rgb(240, 235, 235) !important;
-    font-size: 10px !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
 }
@@ -55,6 +54,7 @@ nav {
     text-decoration: none !important;
     color: white !important;
     font-weight: bold !important;
+    font-size: 10px !important;
 }
 
 .nav-links {
