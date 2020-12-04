@@ -33,7 +33,7 @@ nav {
 .logo {
     background-color: black;
     color: rgb(240, 235, 235);
-    font-size: 24px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -46,7 +46,7 @@ nav {
 .logo_colour {
     background-color: black !important;
     color: rgb(240, 235, 235) !important;
-    font-size: 14px !important;
+    font-size: 10px !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
 }
