@@ -1,1 +1,1 @@
-# website
+Jason's personal website has been created with HTML, CSS, JavaScript and enough caffeine to stay awake during the long hours of coding and researching. I have mostly spent my free time to create a website dedicated to store my photos and researches conducted for my cyber security studies.
