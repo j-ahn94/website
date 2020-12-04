@@ -306,3 +306,26 @@ li:hover li a:hover {
     overflow: hidden;
     position: relative;
 }
+
+/* About section */
+
+.about_body {
+    padding-left: 10em; 
+    padding-right: 10em;
+    padding-top: 5em;
+    display: block;
+    
+}
+
+.about_body p {
+    color: rgba(255, 255, 255, 0.671);
+}
+
+.about_body img {
+    padding: 10px;
+    max-height: 350px;
+    width: 250px;
+    float: right;
+}
+
+
