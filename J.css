@@ -43,6 +43,11 @@ nav {
     color: white;
 }
 
+.logo_colour a {
+    text-decoration: none;
+    color: white;
+}
+
 .nav-links {
     display: flex;
     justify-content: space-around;
