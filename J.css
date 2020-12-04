@@ -309,10 +309,15 @@ li:hover li a:hover {
 
 /* About section */
 
+.about_title {
+    color: rgba(255, 255, 255, 0.671);
+    text-decoration: underline;
+}
+
 .about_body {
-    padding-left: 10em; 
-    padding-right: 10em;
-    padding-top: 5em;
+    padding-left: 1.5em; 
+    padding-right: 1.5em;
+    padding-top: 2em;
     display: block;
     
 }
@@ -323,8 +328,8 @@ li:hover li a:hover {
 
 .about_body img {
     padding: 10px;
-    max-height: 350px;
-    width: 250px;
+    max-height: 320px;
+    width: 220px;
     float: right;
 }
 
