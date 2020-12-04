@@ -39,13 +39,13 @@ nav {
 }
 
 .logo a {
-    text-decoration: none !important;
-    color: white !important;
+    text-decoration: none;
+    color: white;
 }
 
 .logo_colour a {
-    text-decoration: none;
-    color: white;
+    text-decoration: none !important;
+    color: white !important;
 }
 
 .nav-links {
