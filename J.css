@@ -19,7 +19,7 @@ body {
 nav {
     display: flex !important;
     justify-content: space-between;
-    /*padding-right: 2em;*/
+    padding-right: 2em;
     padding-left: 2em;
     padding-top: 2em;
     padding-bottom: 1.5em;
@@ -54,7 +54,7 @@ nav {
     letter-spacing: 1px;
     font-weight: bold;
     font-size: 11px;
-    /*padding: 5px 5px;*/
+    padding: 5px 5px;
 }
 
 .nav-links a:hover {
@@ -82,27 +82,35 @@ nav {
 }
 
 @media screen and (max-width:950px) {
-    body {
+    * {
+        margin: 0;
+        padding: 0;
+    }*/
+    
+    body, html {
         overflow-x: hidden;
     }
+    
     .nav-links {
         position: absolute;
         right: 0px;
-        height: 92vh;
-        top: 10vh;
+        height: 50vh;
+        top: 11vh;
         background-color: black;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 45%;
+        width: 50%;
         transform: translateX(100%);
-        padding-right: 2em;
+        padding-right: 0em;
         transition: transform 0.5s ease-in;
         z-index: 99999;
+        
     }
     .nav-links li {
         opacity: 0;
     }
+
     .burger {
         display: block;
         padding-right: 1em;
@@ -214,6 +222,8 @@ li:hover li a:hover {
     display: flex !important;
     flex-direction: row;
     background-color: black;
+    bottom: 0;
+    position: fixed;
 }
 
 .logos a {
@@ -257,4 +267,9 @@ li:hover li a:hover {
 
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.overall {
+    overflow: hidden;
+    position: relative;
 }
