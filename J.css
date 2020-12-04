@@ -38,11 +38,6 @@ nav {
     letter-spacing: 5px;
 }
 
-.logo h4 a {
-    text-decoration: none;
-    color: white;
-}
-
 .nav-links {
     display: flex;
     justify-content: space-around;
