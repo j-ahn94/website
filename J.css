@@ -141,7 +141,7 @@ nav {
     .nav-links {
         position: absolute;
         right: 0px;
-        height: 50vh;
+        height: 45vh;
         top: 11vh;
         background-color: black;
         display: flex;
