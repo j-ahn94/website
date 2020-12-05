@@ -85,15 +85,6 @@ nav {
     font-size: 20px !important;
 }
 
-.logos p {
-    margin-left: auto;
-    color: white;
-    font-size: 13px;
-    padding-top: 20px;
-    padding-right: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-}
-
 .nav-links {
     display: flex;
     justify-content: space-around;
@@ -275,6 +266,7 @@ li:hover li a:hover {
 }
 
 .logos {
+    width: 100%;
     display: flex !important;
     flex-direction: row;
     background-color: black;
@@ -293,6 +285,15 @@ li:hover li a:hover {
 .logos a:hover {
     text-decoration: none;
     color: white;
+}
+
+.logos p {
+    margin-left: auto;
+    color: white;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-right: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
 .carousel-inner p {
